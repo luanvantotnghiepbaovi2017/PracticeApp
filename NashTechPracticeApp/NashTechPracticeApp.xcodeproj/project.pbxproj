@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39B193F02148C037001AB0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B193EF2148C037001AB0CC /* AppDelegate.swift */; };
+		39B193F52148C037001AB0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B193F32148C037001AB0CC /* Main.storyboard */; };
+		39B193F72148C038001AB0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B193F62148C038001AB0CC /* Assets.xcassets */; };
+		39B193FA2148C038001AB0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B193F82148C038001AB0CC /* LaunchScreen.storyboard */; };
+		39B194192148CBCD001AB0CC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39B1941B2148CBCD001AB0CC /* Localizable.strings */; };
+		39B194282148CE36001AB0CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B194272148CE36001AB0CC /* HomeViewController.swift */; };
+		39B1942B2148CEB0001AB0CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1942A2148CEB0001AB0CC /* Constant.swift */; };
+		39B1942D2148D0E4001AB0CC /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1942C2148D0E4001AB0CC /* UIApplication.swift */; };
+		39B194322148D183001AB0CC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B194312148D183001AB0CC /* Helper.swift */; };
+		39B194342148D1BF001AB0CC /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B194332148D1BE001AB0CC /* LanguageManager.swift */; };
+		39B194362148D2E5001AB0CC /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B194352148D2E5001AB0CC /* NSObject.swift */; };
+		39B194382148D303001AB0CC /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B194372148D303001AB0CC /* UIScreen.swift */; };
+		39B1943A2148ED21001AB0CC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B194392148ED21001AB0CC /* Reachability.swift */; };
+		39B1943C2148EFA2001AB0CC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1943B2148EFA2001AB0CC /* UIViewController.swift */; };
+		39B194402148FA27001AB0CC /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1943F2148FA27001AB0CC /* Fonts.swift */; };
+		39B194412148FB03001AB0CC /* proximanova-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B1941F2148CC25001AB0CC /* proximanova-bold-webfont.ttf */; };
+		39B194422148FB05001AB0CC /* proximanova-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B194222148CC25001AB0CC /* proximanova-light-webfont.ttf */; };
+		39B194432148FB07001AB0CC /* proximanova-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B1941E2148CC25001AB0CC /* proximanova-regular-webfont.ttf */; };
+		39B194442148FB0A001AB0CC /* proximanova-regularitalic-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B194202148CC25001AB0CC /* proximanova-regularitalic-webfont.ttf */; };
+		39B194452148FB0C001AB0CC /* proximanova-semibold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B1941D2148CC25001AB0CC /* proximanova-semibold-webfont.ttf */; };
+		39B194462148FB0E001AB0CC /* proximanovat-thin-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B194212148CC25001AB0CC /* proximanovat-thin-webfont.ttf */; };
+		39B1944921490199001AB0CC /* SWActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1944821490198001AB0CC /* SWActivityIndicatorView.swift */; };
+		39B1944E2149027C001AB0CC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1944D2149027C001AB0CC /* BaseViewController.swift */; };
+		39B19450214903FB001AB0CC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1944F214903FB001AB0CC /* UIColor.swift */; };
+		E5B9028E09540126F9142207 /* Pods_NashTechPracticeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764649B71756E72036808DEF /* Pods_NashTechPracticeApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39B193EC2148C037001AB0CC /* NashTechPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NashTechPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B193EF2148C037001AB0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39B193F42148C037001AB0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39B193F62148C038001AB0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B193F92148C038001AB0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B193FB2148C038001AB0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B194152148CB36001AB0CC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		39B194162148CB36001AB0CC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		39B1941A2148CBCD001AB0CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39B1941C2148CBD1001AB0CC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39B1941D2148CC25001AB0CC /* proximanova-semibold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-semibold-webfont.ttf"; sourceTree = "<group>"; };
+		39B1941E2148CC25001AB0CC /* proximanova-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular-webfont.ttf"; sourceTree = "<group>"; };
+		39B1941F2148CC25001AB0CC /* proximanova-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.ttf"; sourceTree = "<group>"; };
+		39B194202148CC25001AB0CC /* proximanova-regularitalic-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regularitalic-webfont.ttf"; sourceTree = "<group>"; };
+		39B194212148CC25001AB0CC /* proximanovat-thin-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanovat-thin-webfont.ttf"; sourceTree = "<group>"; };
+		39B194222148CC25001AB0CC /* proximanova-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-light-webfont.ttf"; sourceTree = "<group>"; };
+		39B194272148CE36001AB0CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		39B1942A2148CEB0001AB0CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		39B1942C2148D0E4001AB0CC /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		39B194312148D183001AB0CC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		39B194332148D1BE001AB0CC /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		39B194352148D2E5001AB0CC /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		39B194372148D303001AB0CC /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		39B194392148ED21001AB0CC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		39B1943B2148EFA2001AB0CC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		39B1943F2148FA27001AB0CC /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		39B1944821490198001AB0CC /* SWActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWActivityIndicatorView.swift; sourceTree = "<group>"; };
+		39B1944D2149027C001AB0CC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		39B1944F214903FB001AB0CC /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		66CFF98015A1F890AB288D2E /* Pods-NashTechPracticeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NashTechPracticeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NashTechPracticeApp/Pods-NashTechPracticeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		764649B71756E72036808DEF /* Pods_NashTechPracticeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NashTechPracticeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD48973A4356C6E4E5ED0A05 /* Pods-NashTechPracticeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NashTechPracticeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NashTechPracticeApp/Pods-NashTechPracticeApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B193E92148C037001AB0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B9028E09540126F9142207 /* Pods_NashTechPracticeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF3CE5107214B1FCA3E8F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				764649B71756E72036808DEF /* Pods_NashTechPracticeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3143C2D8F997CBFFF042B7EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66CFF98015A1F890AB288D2E /* Pods-NashTechPracticeApp.debug.xcconfig */,
+				CD48973A4356C6E4E5ED0A05 /* Pods-NashTechPracticeApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39B193E32148C037001AB0CC = {
+			isa = PBXGroup;
+			children = (
+				39B193EE2148C037001AB0CC /* NashTechPracticeApp */,
+				39B193ED2148C037001AB0CC /* Products */,
+				3143C2D8F997CBFFF042B7EC /* Pods */,
+				0DF3CE5107214B1FCA3E8F89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39B193ED2148C037001AB0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39B193EC2148C037001AB0CC /* NashTechPracticeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B193EE2148C037001AB0CC /* NashTechPracticeApp */ = {
+			isa = PBXGroup;
+			children = (
+				39B194232148CDBD001AB0CC /* Application */,
+				39B194102148C8CA001AB0CC /* Shared */,
+				39B194082148C5D8001AB0CC /* UI */,
+				39B1944A21490217001AB0CC /* Modules */,
+				39B194072148C3CD001AB0CC /* Supporting Files */,
+				39B193F82148C038001AB0CC /* LaunchScreen.storyboard */,
+			);
+			path = NashTechPracticeApp;
+			sourceTree = "<group>";
+		};
+		39B194022148C059001AB0CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				39B194272148CE36001AB0CC /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		39B194032148C06F001AB0CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39B194072148C3CD001AB0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39B193FB2148C038001AB0CC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39B194082148C5D8001AB0CC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39B1940A2148C5FF001AB0CC /* Views */,
+				39B194092148C5F4001AB0CC /* GenericUI */,
+				39B194262148CE11001AB0CC /* CustomViews */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		39B194092148C5F4001AB0CC /* GenericUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GenericUI;
+			sourceTree = "<group>";
+		};
+		39B1940A2148C5FF001AB0CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39B1940B2148C60D001AB0CC /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39B1940B2148C60D001AB0CC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				39B193F32148C037001AB0CC /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		39B194102148C8CA001AB0CC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				39B1942E2148D13F001AB0CC /* Utils */,
+				39B194292148CEA2001AB0CC /* Commons */,
+				39B194242148CDDF001AB0CC /* Extensions */,
+				39B194112148C8E7001AB0CC /* Resources */,
+				39B194252148CDF2001AB0CC /* LocalLibraries */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		39B194112148C8E7001AB0CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39B194472148FDE1001AB0CC /* Assets */,
+				39B194142148C9C1001AB0CC /* Localizable */,
+				39B194132148C921001AB0CC /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39B194132148C921001AB0CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39B1941F2148CC25001AB0CC /* proximanova-bold-webfont.ttf */,
+				39B194222148CC25001AB0CC /* proximanova-light-webfont.ttf */,
+				39B1941E2148CC25001AB0CC /* proximanova-regular-webfont.ttf */,
+				39B194202148CC25001AB0CC /* proximanova-regularitalic-webfont.ttf */,
+				39B1941D2148CC25001AB0CC /* proximanova-semibold-webfont.ttf */,
+				39B194212148CC25001AB0CC /* proximanovat-thin-webfont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		39B194142148C9C1001AB0CC /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				39B1941B2148CBCD001AB0CC /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		39B194232148CDBD001AB0CC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				39B193EF2148C037001AB0CC /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		39B194242148CDDF001AB0CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39B1944F214903FB001AB0CC /* UIColor.swift */,
+				39B194372148D303001AB0CC /* UIScreen.swift */,
+				39B194352148D2E5001AB0CC /* NSObject.swift */,
+				39B1942C2148D0E4001AB0CC /* UIApplication.swift */,
+				39B1943B2148EFA2001AB0CC /* UIViewController.swift */,
+				39B194332148D1BE001AB0CC /* LanguageManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		39B194252148CDF2001AB0CC /* LocalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				39B1944821490198001AB0CC /* SWActivityIndicatorView.swift */,
+				39B194392148ED21001AB0CC /* Reachability.swift */,
+			);
+			path = LocalLibraries;
+			sourceTree = "<group>";
+		};
+		39B194262148CE11001AB0CC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		39B194292148CEA2001AB0CC /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				39B1942A2148CEB0001AB0CC /* Constant.swift */,
+				39B1943F2148FA27001AB0CC /* Fonts.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		39B1942E2148D13F001AB0CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39B194312148D183001AB0CC /* Helper.swift */,
+				39B194302148D15E001AB0CC /* DataProviders */,
+				39B1942F2148D157001AB0CC /* Networking */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		39B1942F2148D157001AB0CC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		39B194302148D15E001AB0CC /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
+		39B194472148FDE1001AB0CC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				39B193F62148C038001AB0CC /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		39B1944A21490217001AB0CC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				39B1944C2149022F001AB0CC /* Base */,
+				39B1944B21490229001AB0CC /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		39B1944B21490229001AB0CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				39B194032148C06F001AB0CC /* Models */,
+				39B194022148C059001AB0CC /* ViewControllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		39B1944C2149022F001AB0CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				39B1944D2149027C001AB0CC /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B193EB2148C037001AB0CC /* NashTechPracticeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B193FE2148C038001AB0CC /* Build configuration list for PBXNativeTarget "NashTechPracticeApp" */;
+			buildPhases = (
+				E89D2F90CDE7CFD58B0A7DE1 /* [CP] Check Pods Manifest.lock */,
+				39B193E82148C037001AB0CC /* Sources */,
+				39B193E92148C037001AB0CC /* Frameworks */,
+				39B193EA2148C037001AB0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NashTechPracticeApp;
+			productName = NashTechPracticeApp;
+			productReference = 39B193EC2148C037001AB0CC /* NashTechPracticeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39B193E42148C037001AB0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "iOS Dev";
+				TargetAttributes = {
+					39B193EB2148C037001AB0CC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 39B193E72148C037001AB0CC /* Build configuration list for PBXProject "NashTechPracticeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 39B193E32148C037001AB0CC;
+			productRefGroup = 39B193ED2148C037001AB0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B193EB2148C037001AB0CC /* NashTechPracticeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39B193EA2148C037001AB0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B194452148FB0C001AB0CC /* proximanova-semibold-webfont.ttf in Resources */,
+				39B193FA2148C038001AB0CC /* LaunchScreen.storyboard in Resources */,
+				39B194192148CBCD001AB0CC /* Localizable.strings in Resources */,
+				39B194432148FB07001AB0CC /* proximanova-regular-webfont.ttf in Resources */,
+				39B194412148FB03001AB0CC /* proximanova-bold-webfont.ttf in Resources */,
+				39B194442148FB0A001AB0CC /* proximanova-regularitalic-webfont.ttf in Resources */,
+				39B193F72148C038001AB0CC /* Assets.xcassets in Resources */,
+				39B194462148FB0E001AB0CC /* proximanovat-thin-webfont.ttf in Resources */,
+				39B194422148FB05001AB0CC /* proximanova-light-webfont.ttf in Resources */,
+				39B193F52148C037001AB0CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E89D2F90CDE7CFD58B0A7DE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NashTechPracticeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39B193E82148C037001AB0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B1944E2149027C001AB0CC /* BaseViewController.swift in Sources */,
+				39B19450214903FB001AB0CC /* UIColor.swift in Sources */,
+				39B1942D2148D0E4001AB0CC /* UIApplication.swift in Sources */,
+				39B193F02148C037001AB0CC /* AppDelegate.swift in Sources */,
+				39B194322148D183001AB0CC /* Helper.swift in Sources */,
+				39B1944921490199001AB0CC /* SWActivityIndicatorView.swift in Sources */,
+				39B194362148D2E5001AB0CC /* NSObject.swift in Sources */,
+				39B194402148FA27001AB0CC /* Fonts.swift in Sources */,
+				39B1943C2148EFA2001AB0CC /* UIViewController.swift in Sources */,
+				39B194342148D1BF001AB0CC /* LanguageManager.swift in Sources */,
+				39B1943A2148ED21001AB0CC /* Reachability.swift in Sources */,
+				39B194282148CE36001AB0CC /* HomeViewController.swift in Sources */,
+				39B1942B2148CEB0001AB0CC /* Constant.swift in Sources */,
+				39B194382148D303001AB0CC /* UIScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39B193F32148C037001AB0CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B193F42148C037001AB0CC /* Base */,
+				39B194152148CB36001AB0CC /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39B193F82148C038001AB0CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B193F92148C038001AB0CC /* Base */,
+				39B194162148CB36001AB0CC /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		39B1941B2148CBCD001AB0CC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B1941A2148CBCD001AB0CC /* en */,
+				39B1941C2148CBD1001AB0CC /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39B193FC2148C038001AB0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39B193FD2148C038001AB0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39B193FF2148C038001AB0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CFF98015A1F890AB288D2E /* Pods-NashTechPracticeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/NashTechPracticeApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.dev.project.NashTechPracticeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39B194002148C038001AB0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD48973A4356C6E4E5ED0A05 /* Pods-NashTechPracticeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/NashTechPracticeApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.dev.project.NashTechPracticeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B193E72148C037001AB0CC /* Build configuration list for PBXProject "NashTechPracticeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B193FC2148C038001AB0CC /* Debug */,
+				39B193FD2148C038001AB0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B193FE2148C038001AB0CC /* Build configuration list for PBXNativeTarget "NashTechPracticeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B193FF2148C038001AB0CC /* Debug */,
+				39B194002148C038001AB0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39B193E42148C037001AB0CC /* Project object */;
+}
